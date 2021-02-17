@@ -229,3 +229,4 @@
 /InvestmentData/bin/Debug/net5.0/InvestmentData.pdb
 /InvestmentData/bin/Debug/net5.0/InvestmentData.dll
 /InvestmentData/bin/Debug/net5.0/InvestmentData.deps.json
+*.v2
