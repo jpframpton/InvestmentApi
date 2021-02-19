@@ -1,6 +1,14 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d5efae1e_002Da596_002D4bf2_002Da441_002D1853260975c4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ForGetStocks_ReturnHttpNotFound_ForInvalidStock" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::EFF71043-11E5-42F4-80C3-D27B70B0E01A::net5.0::InvestmentApi.Test.UnitTests.StockControllerShould.ForGetStocks_ReturnHttpNotFound_ForInvalidStock&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EFF71043-11E5-42F4-80C3-D27B70B0E01A::net5.0::InvestmentApi.Test.IntegrationTests.StockReturnsDataShould.ForGetStockReturns_OverDateRange_ReturnNotFoundMessage_ForInvalidStock&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EFF71043-11E5-42F4-80C3-D27B70B0E01A::net5.0::InvestmentApi.Test.IntegrationTests.StockReturnsDataShould.ForGetStockReturns_YTD_ReturnHistoricalPriceReturnRecords_ForValidStock&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EFF71043-11E5-42F4-80C3-D27B70B0E01A::net5.0::InvestmentApi.Test.IntegrationTests.StockReturnsDataShould.ForGetStockReturns_OverDateRange_ReturnHistoricalPriceReturnRecords_ForValidStock&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EFF71043-11E5-42F4-80C3-D27B70B0E01A::net5.0::InvestmentApi.Test.IntegrationTests.StockReturnsDataShould.ForGetStockReturns_OverDateRangeOfOneDay_ReturnHistoricalPriceReturnRecordsOfOneRecord_ForValidStock&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EFF71043-11E5-42F4-80C3-D27B70B0E01A::net5.0::InvestmentApi.Test.UnitTests.StockReturnsShould.ForGetStockReturns_ReturnNotFoundMessage_ForInvalidStock&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EFF71043-11E5-42F4-80C3-D27B70B0E01A::net5.0::InvestmentApi.Test.UnitTests.StockReturnsShould.ForGetStockReturns_ReturnStockReturns_ForValidStock&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EFF71043-11E5-42F4-80C3-D27B70B0E01A::net5.0::InvestmentApi.Test.UnitTests.StockReturnsShould&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EFF71043-11E5-42F4-80C3-D27B70B0E01A::net5.0::InvestmentApi.Test.UnitTests.ReturnsControllerShould.ForGetStockReturns_ReturnStockReturns_ForValidStock&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EFF71043-11E5-42F4-80C3-D27B70B0E01A::net5.0::InvestmentApi.Test.UnitTests.ReturnsControllerShould.ForGetStocks_ReturnHttpNotFound_ForInvalidStock&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

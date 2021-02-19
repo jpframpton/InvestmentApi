@@ -1,7 +1,6 @@
-using System;
-using System.Linq;
 using InvestmentApi.Common;
-using InvestmentData;
+using InvestmentData.Access;
+using InvestmentLogic;
 using InvestmentShared.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -9,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System;
 
 namespace InvestmentApi
 {
@@ -34,7 +34,7 @@ namespace InvestmentApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IStockData, StockData>();
+            services.AddScoped<IStockReturns, StockReturns>();
             services.AddScoped<IStockReturnsData, StockReturnsData>();
 
             services.AddOptions();

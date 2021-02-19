@@ -1,0 +1,8 @@
+﻿namespace InvestmentApi.Test.TestConstants
+{
+    public static class StockReturnsData
+    {
+        public const string GoodData =
+            "[{\"close\":122.72,\"high\":128.64,\"low\":122.0,\"open\":129.1,\"symbol\":\"AAPL\",\"volume\":116055670,\"id\":\"LICOHE_ISRSRTCAIP\",\"key\":\"PLAA\",\"subkey\":\"0\",\"date\":\"2020-12-09T00:00:00\",\"updated\":1687098616082,\"changeOverTime\":0,\"marketChangeOverTime\":0,\"uOpen\":124.99,\"uClose\":125.73,\"uHigh\":129.72,\"uLow\":125.0,\"uVolume\":117340797,\"fOpen\":124.4384,\"fClose\":124.3163,\"fHigh\":128.8583,\"fLow\":124.8475,\"fVolume\":118015720,\"label\":\"Dec 9, 20\",\"change\":0,\"changePercent\":0},{\"close\":125.06,\"high\":124.75,\"low\":120.5,\"open\":123.3,\"symbol\":\"AAPL\",\"volume\":82692146,\"id\":\"ERCI_HRATPSOICISL\",\"key\":\"LPAA\",\"subkey\":\"0\",\"date\":\"2020-12-10T00:00:00\",\"updated\":1673429696804,\"changeOverTime\":0,\"marketChangeOverTime\":0,\"uOpen\":124.2,\"uClose\":128.25,\"uHigh\":128.62,\"uLow\":125.46,\"uVolume\":84203622,\"fOpen\":124.0068,\"fClose\":125.6425,\"fHigh\":127.7642,\"fLow\":122.8329,\"fVolume\":83001140,\"label\":\"Dec 10, 20\",\"change\":0,\"changePercent\":0},{\"close\":123.57,\"high\":125.92,\"low\":124.17,\"open\":125.81,\"symbol\":\"AAPL\",\"volume\":88527128,\"id\":\"_LIPITAHSISROCCER\",\"key\":\"APAL\",\"subkey\":\"0\",\"date\":\"2020-12-11T00:00:00\",\"updated\":1650660756452,\"changeOverTime\":0,\"marketChangeOverTime\":0,\"uOpen\":126.65,\"uClose\":126.39,\"uHigh\":123.95,\"uLow\":125.19,\"uVolume\":90522362,\"fOpen\":127.2098,\"fClose\":127.0954,\"fHigh\":126.712,\"fLow\":120.6429,\"fVolume\":91047080,\"label\":\"Dec 11, 20\",\"change\":0,\"changePercent\":0}]";
+    }
+}
