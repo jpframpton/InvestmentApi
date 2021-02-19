@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
+    <Folder Include="Entities\Iex\" />
+    <Folder Include="Constants\" />
   </ItemGroup>
 
   <ItemGroup>

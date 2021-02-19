@@ -1,11 +1,12 @@
-﻿using System;
+﻿using InvestmentShared.Entities.Iex;
+using System;
 using System.Collections.Generic;
-using InvestmentShared.Models;
+using System.Threading.Tasks;
 
 namespace InvestmentShared.Interfaces
 {
     public interface IStockReturnsData
     {
-        StockReturn GetStockReturnsBySymbolOverDateRange(string symbol, DateTime startDate, DateTime endDate);
+        Task<(List<HistoricalPriceReturn> historicalPriceReturns, string message)> GetStockReturnsBySymbolOverDateRangeAsync(string symbol, DateTime? startDate, DateTime? endDate);
     }
 }

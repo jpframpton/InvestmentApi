@@ -1,0 +1,9 @@
+C:\Users\John\Source\InvestmentApiRepo\InvestmentLogic\bin\Debug\netcoreapp3.1\InvestmentLogic.deps.json
+C:\Users\John\Source\InvestmentApiRepo\InvestmentLogic\bin\Debug\netcoreapp3.1\InvestmentLogic.dll
+C:\Users\John\Source\InvestmentApiRepo\InvestmentLogic\bin\Debug\netcoreapp3.1\InvestmentLogic.pdb
+C:\Users\John\Source\InvestmentApiRepo\InvestmentLogic\obj\Debug\netcoreapp3.1\InvestmentLogic.csprojAssemblyReference.cache
+C:\Users\John\Source\InvestmentApiRepo\InvestmentLogic\obj\Debug\netcoreapp3.1\InvestmentLogic.AssemblyInfoInputs.cache
+C:\Users\John\Source\InvestmentApiRepo\InvestmentLogic\obj\Debug\netcoreapp3.1\InvestmentLogic.AssemblyInfo.cs
+C:\Users\John\Source\InvestmentApiRepo\InvestmentLogic\obj\Debug\netcoreapp3.1\InvestmentLogic.csproj.CoreCompileInputs.cache
+C:\Users\John\Source\InvestmentApiRepo\InvestmentLogic\obj\Debug\netcoreapp3.1\InvestmentLogic.dll
+C:\Users\John\Source\InvestmentApiRepo\InvestmentLogic\obj\Debug\netcoreapp3.1\InvestmentLogic.pdb

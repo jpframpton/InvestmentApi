@@ -24,4 +24,13 @@
     <ProjectReference Include="..\InvestmentApi\InvestmentApi.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="IntegrationTests\" />
+    <Folder Include="TestConstants\" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy &quot;$(OutDir)$(ProjectName).dll.config&quot; &quot;$(OutDir)testhost.dll.config&quot;&#xD;&#xA;copy &quot;$(OutDir)$(ProjectName).dll.config&quot; &quot;$(OutDir)ReSharperTestRunner64.dll.config&quot;" />
+  </Target>
+
 </Project>
